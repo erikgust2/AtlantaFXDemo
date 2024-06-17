@@ -20,7 +20,7 @@ public class Main {
             Platform.runLater(() -> {
                 VBox root = new VBox();
                 Scene scene = new Scene(root, 800, 600);
-                scene.getStylesheets().add(Main.class.getResource("/styles/nord-dark.css").toExternalForm());
+                scene.getStylesheets().add(Main.class.getResource("/styles/primer-dark.css").toExternalForm());
 
                 root.getChildren().add(new JavaFXContent().getContent());
 

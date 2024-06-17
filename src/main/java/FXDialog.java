@@ -23,7 +23,7 @@ public class FXDialog {
             root.setSpacing(10);
 
             Scene scene = new Scene(root, 600, 400);
-            scene.getStylesheets().add(FXDialog.class.getResource("/styles/nord-dark.css").toExternalForm());
+            scene.getStylesheets().add(FXDialog.class.getResource("/styles/primer-dark.css").toExternalForm());
 
             // Add different JavaFX components
             Label label = new Label("This is a styled label");
@@ -48,6 +48,8 @@ public class FXDialog {
 
             fxPanel.setScene(scene);
         });
+
+        dialog.setVisible(true);
     }
 
 }
